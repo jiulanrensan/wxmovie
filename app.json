@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/soon/soon",
+    "pages/top/top",
+    "pages/detail/detail",
+    "pages/search-detail/search-detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CAFF70",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "position": "top",
+    "backgroundColor": "#CAFF70",
+    "color": "black",
+    "selectedColor": "gray",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "正在热映"
+      },
+      {
+        "pagePath": "pages/soon/soon",
+        "text": "即将上映"
+      },
+      {
+        "pagePath": "pages/top/top",
+        "text": "豆瓣排行"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      }
+    ]
+  }
+}

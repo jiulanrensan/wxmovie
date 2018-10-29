@@ -1,0 +1,16 @@
+<!-- detail -->
+<template name="movieBox" >
+  <view class='movie-box' style='width:{{ boxWidth+"px" }};height:{{ boxHeight+"px" }}' catchtap='openDetail' data-movieid='{{ movieId }}'>
+    <view style='width:{{ boxWidth*0.9+"px" }};height:{{ boxWidth*1.4*0.9+"px" }}' class='imgbox'>
+      <image src='{{ coverageUrl }}' mode='widthFix' style='width: 100%;'></image>
+    </view>
+    <text class='movie-text'>{{ title }}</text>
+    <view class='movie-star'>
+      <view wx:for="{{ star }}" wx:key="key" style='opacity:{{ starStyle }}'>
+        <image wx:if="{{ item == 1}}" src='../icon/star.png'></image>
+        <image wx:else src='../icon/none-star.png'></image>
+      </view>
+      <text style='position:{{ pos }}'>{{ average }}</text>
+    </view>
+  </view>
+</template>

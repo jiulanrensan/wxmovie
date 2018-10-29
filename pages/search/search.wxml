@@ -1,0 +1,15 @@
+
+<view class="container">
+  <form bindreset='clearInput'>
+    <view class='search'>
+      <icon type='search' class='search-icon' size='24' color='#000'></icon>
+      <input type='text' placeholder=' 请输入演员或影片' placeholder-class='placeholder' bindinput='getValue' value='{{inputValue}}'></input>
+      <icon type='clear' class='cancel-icon {{visible?"visible":""}}' size='24' catchtap='clearCon'></icon>
+    </view>
+
+    <view class='control'>
+      <button hover-class='click' catchtap='searchMovie' form-type='reset'>搜索</button>
+    </view>
+  </form>
+  
+</view>

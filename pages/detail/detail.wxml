@@ -1,0 +1,59 @@
+
+<view class='container'>
+  <!-- 头部 -->
+  <view class='header'>
+    <view class='backimg'>
+      <view class='cover'></view>
+      <image src='{{ detailList[0].image }}' mode='widthFix'></image>
+    </view>
+  </view>
+  
+  <view class='front'>
+    <image src='{{ detailList[0].image }}' style='width:{{0.8*boxWidth+"px"}};height:{{0.8*boxHeight+"px"}}'></image>
+
+    <view class='info'>
+      <view class='title'>{{ title }}</view>
+      <view class='score'>
+        <text>评分</text>
+        <view>{{ detailList[0].score }}</view>
+      </view>
+      <view class='contructor'>
+        <text>导演</text>
+        <view>{{ detailList[0].director }}</view>
+      </view>
+      <view class='actors'>
+        <text>演员</text>
+        <view class='actorslist'>
+          <view wx:for="{{ detailList[0].castInfo }}" wx:key="key">
+            <view style='padding-right:"10rpx"'>{{ item.castName }}</view>
+          </view>
+        </view>
+      </view>
+      <view class='type'>
+        <text>类型</text>
+        <view wx:for="{{ detailList[0].genres }}" wx:key="key">
+          <view style='margin-right:"10rpx"'>{{ item }}</view>
+        </view>
+      </view>
+    </view>
+    <!--<view class='hr'></view>-->
+  </view>
+  <!-- 剧情 -->
+  <view class='plot'>
+    <view class='title'>剧情简介</view>
+    <view class='plot-text'>{{ detailList[0].summary }}</view>
+  </view>
+
+  <!-- 演员表 -->
+  <view class='actors-info'>
+    <view class='title'>演员列表</view>
+    <scroll-view scroll-x class='scrview'>
+      <block wx:for="{{ detailList[0].castInfo }}" wx:key="key">
+        <view class='box'>
+          <image src='{{ item.castImg }}' style='width:{{0.8*boxWidth+"px"}};height:{{0.8*boxHeight+"px"}}'></image>
+          <text>{{ item.castName }}</text>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

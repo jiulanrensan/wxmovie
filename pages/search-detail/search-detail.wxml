@@ -1,0 +1,9 @@
+<import src="../movie-box/movie-box.wxml" />
+<view class='container'>
+  <!-- {{visible?"visible":""}} 第一个visible表示此变量是否为正，第二个仅仅表示字符串 -->
+  <view class='content-box hidden {{visible?"visible":""}}'>
+    <view wx:for="{{ searchList }}" wx:key="key">
+      <template is="movieBox" data="{{ ...item,boxWidth,boxHeight }}" ></template>
+    </view>
+  </view>
+</view>

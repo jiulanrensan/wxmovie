@@ -1,0 +1,136 @@
+.container{
+  position: relative;
+  /*width: 100vw;
+  height: 100vh;*/
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  position: absolute;
+  height: 30vh;
+}
+.backimg{
+  width: 100%;
+  height: 30vh;
+  position: fixed;
+  overflow: hidden;
+}
+.backimg>.cover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 10;
+}
+.backimg>image{
+  width: 100%;
+  position: absolute;
+  top: -50%;
+}
+.front{
+  width: 100%;
+  height: 35vh;
+  margin-top: 30vh;
+  background-color: #fff;
+  z-index: 1;
+}
+/*.front::after{
+  content: '';
+  display: block;
+  margin-top: 20rpx;
+  height: 1px;
+  background-color: rgba(0,0,0,0.5);
+}*/
+.front>image{
+  position: absolute;
+  transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+  right: 5%;
+}
+.info{
+  width: 90%;
+  margin: 3vh auto 0;
+}
+.title{
+  height: 5vh;
+  line-height: 5vh;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.score,.contructor,.actors,.type{
+  height: auto;
+  line-height: 3vh;
+  font-size: 30rpx;
+  margin: 0 30rpx 20rpx 0;
+  display: flex;
+  align-items: flex-start;
+  color: #000;
+  font-family: 'FangSong';
+}
+.score>text,.contructor>text,.actors>text,.type>text{
+  width: 70rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+.score>view,.type>view{
+  font-size: 35rpx;
+  
+}
+.actorslist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.actorslist>view,.type>view{
+  margin-right: 10rpx;
+}
+.plot{
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  color: gray;
+  font-family: 'FangSong';
+  background-color: #fff;
+  
+}
+.plot>.title{
+  width: 90%;
+  height: 3vh;
+  margin: 3vh auto 0;
+  font-size: 35rpx;
+}
+.plot-text{
+  width: 90%;
+  margin: 30rpx auto 0;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #000;
+}
+.actors-info{
+  padding-top: 10vh;
+  /*margin-top: 10vh;*/
+  width: 100%;
+}
+.actors-info>.title{
+  width: 90%;
+  margin: 0 auto;
+  height: 3vh;
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.scrview{
+  width: 90%;
+  height: 30vh;
+  margin: 50rpx auto;
+  white-space: nowrap;
+}
+.scrview .box{
+  width: 30vw;
+  display:inline-flex;
+  flex-direction: column;
+}

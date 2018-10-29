@@ -1,0 +1,8 @@
+<import src="../movie-box/movie-box.wxml" />
+<view class="container">
+  <view class='innercon'>
+    <view wx:for="{{ soonList }}" wx:key="key">
+      <template is="movieBox" data="{{ ...item,boxWidth,boxHeight }}" ></template>
+    </view>
+  </view>
+</view>

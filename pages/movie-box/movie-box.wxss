@@ -1,0 +1,50 @@
+.movie-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+/*.movie-img{
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rpx;
+  overflow: hidden;
+  position: relative;
+}
+.movie-img image{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+.imgbox{
+  margin: auto;
+  overflow: hidden;
+}
+.movie-text{
+  width: 90%;
+  display: block;
+  height: 40rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 24rpx;
+  margin-bottom: 5rpx;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.movie-star{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.movie-star image{
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 5rpx;
+}
+.movie-star text{
+  height: 20rpx;
+  font-size: 25rpx;
+}

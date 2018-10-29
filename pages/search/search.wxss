@@ -1,0 +1,56 @@
+.container{
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+.search{
+  background-color: #f8fcfb;
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.search input{
+  height: 100%;
+  width: 600rpx;
+  font-size: 28rpx;
+  padding: 5rpx;
+}
+.search .search-icon,
+.search .cancel-icon{
+  margin: auto;
+}
+.cancel-icon{
+  opacity: 0;
+}
+.visible{
+  opacity: 1;
+}
+.content-box{
+  margin: 50rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 90%;
+  opacity: 0;
+}
+.visible{
+  opacity: 1;
+}
+.control button{
+  width: 150rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  margin: 50rpx auto;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  background-color: #8bb8f1;
+  background: -webkit-linear-gradient(#e8f1fc, #8bb8f1);
+  background: linear-gradient(#e8f1fc, #8bb8f1);
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#e8f1fc), to(#8bb8f1));*/
+}
+.click{
+  background-color: #8bb8f1;
+  background: -webkit-linear-gradient(#8bb8f1, #e8f1fc);
+  background: linear-gradient(#8bb8f1, #e8f1fc);
+}
