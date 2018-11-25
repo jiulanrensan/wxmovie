@@ -11,8 +11,9 @@
 * 调用豆瓣api获取数据的时候，报了个403的错，上网一查，才知道豆瓣来自于小程序的调用被禁止了，于是换了一个api：https://douban.uieee.com
 * 小程序跟vue挺像，所以学起来很顺手
 ### 页面截图
-![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenrecorder-2018-11-25-17-13-37-649.mp4)
-![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-11-53-738_com.tencent.mm.png)
-![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-03-774_com.tencent.mm.png)
-![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-16-777_com.tencent.mm.png)
-![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-40-331_com.tencent.mm.png)
+![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenrecorder-2018-11-25-17-13-37-649.mp4_1543139010.gif)
+<img width="50%" src="https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-11-53-738_com.tencent.mm.png">
+<img width="50%" src="https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-03-774_com.tencent.mm.png">
+<img width="50%" src="https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-16-777_com.tencent.mm.png">
+<img width="50%" src="https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-40-331_com.tencent.mm.png">
+
