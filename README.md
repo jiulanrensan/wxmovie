@@ -12,7 +12,7 @@
 * 小程序跟vue挺像，所以学起来很顺手
 ### 页面截图
 ![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenrecorder-2018-11-25-17-13-37-649.mp4)
-![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-11-53-738_com.tencent.mm.png)
-![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-03-774_com.tencent.mm.png)
-![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-16-777_com.tencent.mm.png)
-![](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-40-331_com.tencent.mm.png)
+![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-11-53-738_com.tencent.mm.png)
+![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-03-774_com.tencent.mm.png)
+![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-16-777_com.tencent.mm.png)
+![img](https://github.com/jiulanrensan/wxmovie/blob/master/Screenshot_2018-11-25-17-12-40-331_com.tencent.mm.png)
